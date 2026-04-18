@@ -1,0 +1,40 @@
+{
+  "name": "scribe-scroll",
+  "version": "1.0.0",
+  "description": "Create and extract text from .docx files. Lightweight Node.js wrapper around the docx and mammoth libraries for programmatic document generation.",
+  "main": "src/create.js",
+  "bin": {
+    "scribe-scroll-create": "src/create.js",
+    "scribe-scroll-extract": "src/extract.js"
+  },
+  "scripts": {
+    "create": "node src/create.js",
+    "extract": "node src/extract.js"
+  },
+  "keywords": [
+    "docx",
+    "word",
+    "document",
+    "office",
+    "openclaw",
+    "scribe",
+    "scroll"
+  ],
+  "author": "Jakub",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LittleJakub/scribe-scroll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LittleJakub/scribe-scroll/issues"
+  },
+  "homepage": "https://github.com/LittleJakub/scribe-scroll",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "docx": "^9.5.1",
+    "mammoth": "^1.12.0"
+  }
+}
