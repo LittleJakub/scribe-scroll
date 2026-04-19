@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.0 — 2026-04-19
+
+**OpenClaw skill packaging.**
+
+### Added
+- `~/.openclaw/skills/scribe-scroll/` — OpenClaw skill for automatic discovery and invocation
+- Global bin commands: `scribe-scroll-create`, `scribe-scroll-extract`
+- Skill metadata and usage documentation
+
+### Changed
+- Version bumped from 1.0.0 → 1.1.0 (skill packaging is a bigger structural change)
+
 ## 1.0.0 — 2026-04-18
 
 **Initial release.**
@@ -13,7 +25,7 @@
 - `extract.js` — Extract text from .docx files
   - `--input` source .docx file
   - `--format` output format: `text` (default) or `json`
-- `edit.js` — Edit existing .docx documents *(planned, v1.1.0)*
+- `edit.js` — Edit existing .docx documents *(planned)*
   - `--find` / `--replace` — global find and replace across all paragraphs
   - `--append` — add a paragraph at the end
   - `--replace-index` / `--text` — replace a specific paragraph by 1-based index
